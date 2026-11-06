@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dcdcdc;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 75px;
+}
+
+h1, h2, h3, h4, .logo {
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+/* Navbar Superior */
+.navbar-top {
+  background-color: #6da0d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #1e3a5f;
+}
+
+.user-profile {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.user-profile img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
