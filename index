@@ -93,3 +93,27 @@
 
       <button class="btn-load-more mobile-only">Ver más</button>
     </section>
+  </main>
+
+  <!-- Navbar Inferior -->
+  <nav class="navbar-bottom">
+    <a href="#acerca" class="nav-item">
+      <img src="assets/icons/acerca de.png" alt="Acerca de">
+      <span>Acerca de</span>
+    </a>
+    <a href="#soporte" class="nav-item">
+      <img src="assets/icons/soporte.png" alt="Soporte">
+      <span>Soporte</span>
+    </a>
+    <a href="#foro" class="nav-item">
+      <img src="assets/icons/foro.png" alt="Foro">
+      <span>Foro</span>
+    </a>
+    <a href="#mas" class="nav-item">
+      <img src="assets/icons/mas.png" alt="Más">
+      <span>Más</span>
+    </a>
+  </nav>
+
+</body>
+</html>
