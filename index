@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PlayZone - Landing Page</title>
   
-  <!-- Google Fonts: Alfa Slab One & Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,7 +13,7 @@
 </head>
 <body>
 
-  <!-- Header / Navbar Superior -->
+  <!-- Header -->
   <header class="navbar-top">
     <div class="logo">Play<span>Zone</span></div>
     <div class="user-profile">
@@ -22,14 +21,12 @@
     </div>
   </header>
 
- <!-- Hero / Contenido Principal -->
+ <!-- Hero -->
   <main class="hero-container">
     
-    <!-- Sección de Juegos -->
     <section class="games-section">
       <div class="games-grid">
 
-        <!-- Fortnite -->
         <article class="game-card">
           <div class="card-img-container">
             <img src="assets/images/Fortnite_F_lettermark_logo.png" alt="Fortnite">
@@ -39,7 +36,6 @@
           <button class="btn-secondary">Unirme</button>
         </article>
 
-        <!-- Minecraft -->
         <article class="game-card">
           <div class="card-img-container">
             <img src="assets/images/minecraft.jpg" alt="Minecraft">
@@ -49,7 +45,6 @@
           <button class="btn-secondary">Unirme</button>
         </article>
 
-        <!-- Pokémon GO -->
         <article class="game-card">
           <div class="card-img-container">
             <img src="assets/images/pokemon_go.png" alt="Pokémon GO">
@@ -59,7 +54,6 @@
           <button class="btn-secondary">Unirme</button>
         </article>
 
-        <!-- Valorant (Visible en Desktop) -->
         <article class="game-card desktop-only">
           <div class="card-img-container">
             <img src="assets/images/valorant.jpg" alt="Valorant">
@@ -69,7 +63,6 @@
           <button class="btn-secondary">Unirme</button>
         </article>
 
-        <!-- Dead by Daylight (Visible en Desktop) -->
         <article class="game-card desktop-only">
           <div class="card-img-container">
             <img src="assets/images/dbd.png" alt="Dead by Daylight">
@@ -79,7 +72,6 @@
           <button class="btn-secondary">Unirme</button>
         </article>
 
-        <!-- Lethal Company (Visible en Desktop) -->
         <article class="game-card desktop-only">
           <div class="card-img-container">
             <img src="assets/images/Lethal_Company.webp" alt="Lethal Company">
@@ -95,7 +87,6 @@
     </section>
   </main>
 
-  <!-- Navbar Inferior -->
   <nav class="navbar-bottom">
     <a href="#acerca" class="nav-item">
       <img src="assets/icons/acerca de.png" alt="Acerca de">
