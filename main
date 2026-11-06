@@ -233,3 +233,54 @@ h1, h2, h3, h4, .logo {
   height: 22px;
   object-fit: contain;
 }
+
+/* Vista de Escritorio */
+@media (min-width: 900px) {
+  .hero-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .games-section {
+    flex: 2;
+  }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .comments-section {
+    flex: 1;
+    background-color: #cccccc;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .comments-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .desktop-only {
+    display: flex;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .nav-item span {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .nav-item img {
+    width: 26px;
+    height: 26px;
+  }
+}
