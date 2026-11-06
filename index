@@ -21,3 +21,75 @@
       <img src="assets/icons/usuario.png" alt="Perfil de usuario">
     </div>
   </header>
+
+ <!-- Hero / Contenido Principal -->
+  <main class="hero-container">
+    
+    <!-- Sección de Juegos -->
+    <section class="games-section">
+      <div class="games-grid">
+
+        <!-- Fortnite -->
+        <article class="game-card">
+          <div class="card-img-container">
+            <img src="assets/images/Fortnite_F_lettermark_logo.png" alt="Fortnite">
+          </div>
+          <h3>Fortnite</h3>
+          <p>¡Únete a la isla y comparte tus mejores jugadas, estrategias de construcción y victorias reales con nuestra comunidad!</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+        <!-- Minecraft -->
+        <article class="game-card">
+          <div class="card-img-container">
+            <img src="assets/images/minecraft.jpg" alt="Minecraft">
+          </div>
+          <h3>Minecraft</h3>
+          <p>Forma parte de nuestro servidor comunitario. Comparte tus construcciones, proyectos de Redstone y aventuras supervivencia.</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+        <!-- Pokémon GO -->
+        <article class="game-card">
+          <div class="card-img-container">
+            <img src="assets/images/pokemon_go.png" alt="Pokémon GO">
+          </div>
+          <h3>Pokémon GO</h3>
+          <p>¡Entrenador! Coordina incursiones, intercambia criaturas legendarias y encuentra grupos de caminata en tu zona.</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+        <!-- Valorant (Visible en Desktop) -->
+        <article class="game-card desktop-only">
+          <div class="card-img-container">
+            <img src="assets/images/valorant.jpg" alt="Valorant">
+          </div>
+          <h3>Valorant</h3>
+          <p>Encuentra tu escuadra ideal, comparte tus mejores alineaciones de habilidades y domina el rango competitivo.</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+        <!-- Dead by Daylight (Visible en Desktop) -->
+        <article class="game-card desktop-only">
+          <div class="card-img-container">
+            <img src="assets/images/dbd.png" alt="Dead by Daylight">
+          </div>
+          <h3>Dead by Daylight</h3>
+          <p>Ya seas Asesino o Superviviente, entra a la niebla con nuestro grupo para coordinar partidas y debatir sobre el meta.</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+        <!-- Lethal Company (Visible en Desktop) -->
+        <article class="game-card desktop-only">
+          <div class="card-img-container">
+            <img src="assets/images/Lethal_Company.webp" alt="Lethal Company">
+          </div>
+          <h3>Lethal Company</h3>
+          <p>Cumple la cuota con nuevos compañeros de tripulación. Comparte clips divertidos y estrategias para sobrevivir a las lunas.</p>
+          <button class="btn-secondary">Unirme</button>
+        </article>
+
+      </div>
+
+      <button class="btn-load-more mobile-only">Ver más</button>
+    </section>
